@@ -8,7 +8,7 @@ To get this extension in your TAO installation, modify your root composer.json a
     ...,
     {
        "type": "vcs",
-       "url": "git@github.com/oat-sa/branding-training.git"
+       "url": "https://github.com/oat-sa/training-branding.git"
     }
 ],
 
@@ -18,7 +18,7 @@ To get this extension in your TAO installation, modify your root composer.json a
 ```
 require" : {
     ...,
-    "oat-sa/branding-training": "dev-step0"
+    "oat-sa/training-branding": "dev-step0"
 ],
 
 ```
