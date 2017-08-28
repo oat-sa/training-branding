@@ -28,5 +28,5 @@ require" : {
 composer update --prefer-source
 ```
 
-### 4. Install the extension via TAO user interface
+## 4. Install the extension via TAO user interface
 
