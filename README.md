@@ -18,7 +18,7 @@ To get this extension in your TAO installation, modify your root composer.json a
 ```
 require" : {
     ...,
-    "oat-sa/training-branding": "dev-step0"
+    "oat-sa/training-branding": "dev-master"
 ],
 
 ```
@@ -27,3 +27,6 @@ require" : {
 ```
 composer update --prefer-source
 ```
+
+## 4. Install the extension via TAO user interface
+
