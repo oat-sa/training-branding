@@ -12,8 +12,8 @@
 /// Gradient format: ((color:#000[, position:0%])[,(...)])
 
 /// use these under the assumption that header and footer have identical color schemes...
-$mainBarBg: '';
-$mainBarText: '';
+$mainBarBg: #e1dab0;
+$mainBarText: #5d5a47;
 
 /// ...otherwise set custom values for the header here...
 $headerBg: $mainBarBg;
@@ -25,18 +25,18 @@ $footerText: $mainBarText;
 
 
 /// main menu, hover etc. will be computed according to the formulas in _varieties.scss
-$menuActiveBg: '';
+$menuActiveBg: #beb78d;
 $menuActiveText: $headerText;
 
 
 /// action bar
-$actionBarBg: $menuActiveBg;
-$actionBarText: $menuActiveText;
+$actionBarBg: $mainBarText;
+$actionBarText: $mainBarBg;
 
 /// tabs
-$activeTabBg: $actionBarBg;
-$activeTabText: $actionBarText;
+$activeTabBg: $mainBarText;
+$activeTabText: $mainBarBg;
 
 
 /// loading bar
-$loadingBar: '';
+$loadingBar: yellow;
