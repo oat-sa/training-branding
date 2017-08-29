@@ -20,6 +20,7 @@
 namespace oat\trainingBranding\scripts\update;
 
 use \common_ext_ExtensionUpdater;
+use oat\trainingBranding\scripts\install\SetItemThemes;
 use oat\trainingBranding\scripts\install\SetPlatformTheme;
 
 class Updater extends common_ext_ExtensionUpdater
@@ -32,6 +33,13 @@ class Updater extends common_ext_ExtensionUpdater
             $setPlatformTheme([]);
 
             $this->setVersion('0.2.0'); // <- new version, update this in manifest.php too
+        }
+        if ($this->isVersion('0.2.0')) { // <- current version according to manifest.php
+
+            $setItemThemes = new SetItemThemes();
+            $setItemThemes([]);
+
+            $this->setVersion('0.3.0'); // <- new version, update this in manifest.php too
         }
     }
 }

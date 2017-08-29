@@ -27,7 +27,7 @@ return array(
     'label' => 'trainingBranding',
     'description' => '',
     'license' => 'GPL-2.0',
-    'version' => '0.2.0',
+    'version' => '0.3.0',
     'author' => 'Open Assessment Technologies SA',
     'requires' => array(
         'tao' => '>=12.13.2'
@@ -37,7 +37,8 @@ return array(
         array('grant', 'http://www.tao.lu/Ontologies/generis.rdf#trainingBrandingManager', array('ext'=>'trainingBranding')),
     ),
     'install' => array(
-        oat\trainingBranding\scripts\install\SetPlatformTheme::class
+        oat\trainingBranding\scripts\install\SetPlatformTheme::class,
+        oat\trainingBranding\scripts\install\SetItemThemes::class,
     ),
     'uninstall' => array(
     ),
