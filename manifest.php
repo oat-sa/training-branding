@@ -27,7 +27,7 @@ return array(
     'label' => 'trainingBranding',
     'description' => '',
     'license' => 'GPL-2.0',
-    'version' => '0.1.0',
+    'version' => '0.1.1',
     'author' => 'Open Assessment Technologies SA',
     'requires' => array(
         'tao' => '>=12.13.2'
@@ -40,6 +40,7 @@ return array(
     ),
     'uninstall' => array(
     ),
+    'update' => 'oat\\trainingBranding\\scripts\\update\\Updater',
     'routes' => array(
         '/trainingBranding' => 'oat\\trainingBranding\\controller'
     ),    
